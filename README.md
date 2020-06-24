@@ -1,4 +1,4 @@
-# quarantine_returns
+# Quarantine Returns
 
 This tool is to allow library system managers to automate quarantining stock once it has been returned to stock.
 
