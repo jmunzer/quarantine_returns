@@ -14,7 +14,8 @@ If your LMS is hosted on Linux, follow the below steps:
  4) navigate to the respective .sh files - setquarantine.sh and resetloanable.sh and update institution-specific values following comments in code.
  5) update the 'report to' email addresses on the final line of each .sh file.
  6) open the cron and add lines similar to below:
-
+ 
+  /
      # ================================================
      # Bespoke script to update item status to 'quarantined'
      # ================================================
