@@ -26,4 +26,8 @@ If your LMS is hosted on Linux, follow the below steps:
      0 * * * * talis . ~talis/.bash_profile; /usr/opt/blcmp/local/utils/bin/reset_loanable/resetloanable.sh 1>/var/tmp/resetloanable.cron 2>&1
      #
      # 
+ ```
 
+# Troubleshooting
+
+If you run into permission errors in your *.cron files, check you have execute permissions for talis user on the scripts. if not.. sudo chmod +x script_name.sh
