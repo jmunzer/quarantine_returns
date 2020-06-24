@@ -2,7 +2,7 @@ select
 	ITEM.WORK_ID,
 	ITEM.BARCODE,
 	ITEM.TYPE_ID,
-	ITEM.STATUS_ID,
+	ITEM.STATUS_ID
 from
 	ITEM
 where 
