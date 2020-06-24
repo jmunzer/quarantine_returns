@@ -21,4 +21,4 @@ cp logs/$file_name logs/$new_fileName
 
 sleep 10s
 
-#echo -e "CAPITA_LMS: resetloanable - reset loanable status \n stock quarantined for 72 hours, set to loanable status \n \n  $(cat \/usr/opt/blcmp/local/utils/bin/reset_loanable/logs/$new_fileName)" | mailx -s "CAPITA_LMS resetloanable log" -r "LIBSYS<email@address.com>" email@address.com
+echo -e "CAPITA_LMS: resetloanable - reset loanable status \n stock quarantined for 72 hours, set to loanable status \n \n  $(cat \/usr/opt/blcmp/local/utils/bin/reset_loanable/logs/$new_fileName)" | mailx -s "CAPITA_LMS resetloanable log" -r "LIBSYS<email@address.com>" email@address.com
