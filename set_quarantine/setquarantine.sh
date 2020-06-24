@@ -21,4 +21,4 @@ cp logs/$file_name logs/$new_fileName
 
 sleep 10s
 
-#echo -e "CAPITA_LMS: setquarantine - set quarantine status \n last 20mins of returned items changed to quarantine status \n \n  $(cat \/usr/opt/blcmp/local/utils/bin/set_quarantine/logs/$new_fileName)" | mailx -s "CAPITA_LMS setquarantine log" -r "LIBSYS<email@address.com>" email@address.com
+echo -e "CAPITA_LMS: setquarantine - set quarantine status \n last 20mins of returned items changed to quarantine status \n \n  $(cat \/usr/opt/blcmp/local/utils/bin/set_quarantine/logs/$new_fileName)" | mailx -s "CAPITA_LMS setquarantine log" -r "LIBSYS<email@address.com>" email@address.com
