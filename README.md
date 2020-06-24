@@ -25,4 +25,4 @@ If your LMS is hosted on Linux, follow the below steps:
      # ================================================
      0 * * * * talis . ~talis/.bash_profile; /usr/opt/blcmp/local/utils/bin/reset_loanable/resetloanable.sh 1>/var/tmp/resetloanable.cron 2>&1
      #
-     #```
+     # ```
