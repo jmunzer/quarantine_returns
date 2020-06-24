@@ -30,4 +30,6 @@ If your LMS is hosted on Linux, follow the below steps:
 
 # Troubleshooting
 
-If you run into permission errors in your *.cron files, check you have execute permissions for talis user on the scripts. if not.. sudo chmod +x script_name.sh
+If you run into permission errors in your *.cron files, check you have execute permissions for talis user on the scripts. if not.. 
+
+ ```sudo chmod +x script_name.sh```
