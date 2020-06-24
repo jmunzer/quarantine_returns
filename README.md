@@ -15,8 +15,8 @@ If your LMS is hosted on Linux, follow the below steps:
  5) update the 'report to' email addresses on the final line of each .sh file.
  6) open the cron and add lines similar to below:
 
-//
-       # ================================================
+
+/      # ================================================
        # Bespoke script to update item status to 'quarantined'
        # ================================================
        0,20,40 * * * * talis . ~talis/.bash_profile; /usr/opt/blcmp/local/utils/bin/set_quarantine/setquarantine.sh 1>/var/tmp/setquarantine.cron 2>&1
