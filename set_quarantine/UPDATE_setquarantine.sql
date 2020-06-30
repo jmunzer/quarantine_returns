@@ -1,5 +1,7 @@
 update ITEM
-	set ITEM.STATUS_ID = 109 -- this status value should be the item status you want to set items to. See TYPE_STATUS.SUB_TYPE = 6 for your institution-specific values.
+	set 	ITEM.STATUS_ID = 109, -- this status value should be the item status you want to set items to. See TYPE_STATUS.SUB_TYPE = 6 for your institution-specific values.
+		ITEM.EDIT_DATE = getdate(),
+		ITEM.EDIT_OP = 'YSJ_sort1' -- this value is your returns sorter operator name.
 	from ITEM
 		inner join LOAN
 			on (ITEM.ITEM_ID = LOAN.ITEM_ID)
